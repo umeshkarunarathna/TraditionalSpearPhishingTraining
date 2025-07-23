@@ -364,6 +364,7 @@ function submitSurvey() {
     scenario5Time: responseTimes[4]?.toFixed(2) || "",
     avgConfidence: avgConfidence,
     avgResponseTime: avgResponseTime,
+    score: `${score} / ${scenarios.length}`,
     post1: document.getElementById("post1").value,
     post2: document.getElementById("post2").value,
     post3: document.getElementById("post3").value,
